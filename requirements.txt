@@ -1,0 +1,33 @@
+# Voice AI Conversation System - Requirements (Revised)
+# Working version with Python 3.14 compatibility
+
+# Audio I/O - Modern replacement for PyAudio
+sounddevice
+soundfile
+numpy
+
+# VAD - Silero (ONNX-based, no PyTorch required for inference)
+silero-vad
+onnxruntime
+
+# API Clients
+openai-whisper  # For local fallback
+groq
+elevenlabs
+
+# HTTP requests for APIs
+requests
+httpx
+
+# Utilities
+python-dotenv
+webrtcvad  # Alternative lightweight VAD
+keyboard  # For interruption handling
+
+# Audio processing
+librosa
+scipy
+
+# Web interface (optional)
+# gradio
+# streamlit
